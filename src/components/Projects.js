@@ -1,86 +1,86 @@
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import { ProjectCard } from "./ProjectCard";
+import { Container, Row, Col, Tab, Nav } from 'react-bootstrap';
+import { ProjectCard } from './ProjectCard';
 
-import corteCelo from "../assets/img/img-barber/corte_celo.png";
-import cortePefil from "../assets/img/img-barber/perfil_corte.png";
-import corte from "../assets/img/img-barber/IMG_4945.png";
-import corte_frontal from "../assets/img/img-barber/corte_frontal.png";
-import corte_perfil_celo from "../assets/img/img-barber/corte_perfil_celo.png";
-import barba from "../assets/img/img-barber/barba.png";
-import frente from "../assets/img/img-barber/frente_barber.png";
-import frente3 from "../assets/img/img-barber/frente3.png";
-import jogos from "../assets/img/img-barber/jogos.png";
-import comida from "../assets/img/img-barber/comidas.png";
-import bilhar from "../assets/img/img-barber/bilhar.png";
-import ambiente from "../assets/img/img-barber/ambiente.png";
+import corteCelo from '../assets/img/img-barber/corte_celo.png';
+import cortePefil from '../assets/img/img-barber/perfil_corte.png';
+import corte from '../assets/img/img-barber/IMG_4945.png';
+import corte_frontal from '../assets/img/img-barber/corte_frontal.png';
+import corte_perfil_celo from '../assets/img/img-barber/corte_perfil_celo.png';
+import barba from '../assets/img/img-barber/barba.png';
+import frente from '../assets/img/img-barber/frente_barber.png';
+import frente3 from '../assets/img/img-barber/frente3.png';
+import jogos from '../assets/img/img-barber/jogos.png';
+import comida from '../assets/img/img-barber/comidas.png';
+import bilhar from '../assets/img/img-barber/bilhar.png';
+import ambiente from '../assets/img/img-barber/ambiente.png';
 
-import logo from "../assets/img/Icons/logotrans branco (1).png";
-import "animate.css";
-import TrackVisibility from "react-on-screen";
+import logo from '../assets/img/Icons/logotrans branco (1).png';
+import 'animate.css';
+import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
   const projects = [
     {
-      title: "Conexão gera destino",
-      description: "@Barberflix_ofc",
+      title: 'Conexão gera destino',
+      description: '@Barberflix_ofc',
       imgUrl: corte,
     },
     {
-      title: "Auto cuidado",
-      description: "@Barberflix_ofc",
+      title: 'Auto cuidado',
+      description: '@Barberflix_ofc',
       imgUrl: cortePefil,
     },
     {
-      title: "Estética masculina",
-      description: "@Barberflix_ofc",
+      title: 'Estética masculina',
+      description: '@Barberflix_ofc',
       imgUrl: corteCelo,
     },
     {
-      title: "Relacionamento",
-      description: "@Barberflix_ofc",
+      title: 'Relacionamento',
+      description: '@Barberflix_ofc',
       imgUrl: barba,
     },
     {
-      title: "Desenvolvimento pessoal",
-      description: "@Barberflix_ofc",
+      title: 'Desenvolvimento pessoal',
+      description: '@Barberflix_ofc',
       imgUrl: corte_perfil_celo,
     },
     {
-      title: "Tempo de qualidade",
-      description: "@Barberflix_ofc",
+      title: 'Tempo de qualidade',
+      description: '@Barberflix_ofc',
       imgUrl: corte_frontal,
     },
   ];
 
   const projects2 = [
     {
-      title: "Exclusividade",
-      description: "@Barberflix_ofc",
+      title: 'Exclusividade',
+      description: '@Barberflix_ofc',
       imgUrl: frente,
     },
     {
-      title: "Relevância",
-      description: "@Barberflix_ofc",
+      title: 'Relevância',
+      description: '@Barberflix_ofc',
       imgUrl: bilhar,
     },
     {
-      title: "Desafios e superação",
-      description: "@Barberflix_ofc",
+      title: 'Desafios e superação',
+      description: '@Barberflix_ofc',
       imgUrl: frente3,
     },
     {
-      title: "Praticidade",
-      description: "@Barberflix_ofc",
+      title: 'Praticidade',
+      description: '@Barberflix_ofc',
       imgUrl: comida,
     },
     {
-      title: "Excelência",
-      description: "@Barberflix_ofc",
+      title: 'Excelência',
+      description: '@Barberflix_ofc',
       imgUrl: ambiente,
     },
     {
-      title: "Ambiente confortável",
-      description: "@Barberflix_ofc",
+      title: 'Ambiente confortável',
+      description: '@Barberflix_ofc',
       imgUrl: jogos,
     },
   ];
@@ -94,7 +94,7 @@ export const Projects = () => {
               {({ isVisible }) => (
                 <div
                   className={
-                    isVisible ? "animate__animated animate__fadeIn" : ""
+                    isVisible ? 'animate__animated animate__fadeIn' : ''
                   }
                 >
                   <h2>Assinaturas</h2>
@@ -125,7 +125,7 @@ export const Projects = () => {
                     <Tab.Content
                       id="slideInUp"
                       className={
-                        isVisible ? "animate__animated animate__slideInUp" : ""
+                        isVisible ? 'animate__animated animate__slideInUp' : ''
                       }
                     >
                       <Tab.Pane eventKey="first">
@@ -146,10 +146,11 @@ export const Projects = () => {
                         <Row>
                           <iframe
                             width="560"
-                            height="615"
-                            src="https://www.youtube.com/embed/watch?v=A58wCkPJtIU&list=RDrxmY1sMTsF8&index=3&ab_channel=CharlieBrownJr.-Topic"
+                            height="700"
+                            src="https://www.youtube.com/embed/videoseries?si=pC8361zbkv9E-0Mz&amp;list=PLKpKm_RzMPr6vAb9KG3Zc12Udv1Dj65CJ"
+                            title="YouTube video player"
                             frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowfullscreen
                           ></iframe>
                         </Row>
